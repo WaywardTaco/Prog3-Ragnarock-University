@@ -10,7 +10,7 @@ public:
 	Acolyte(){
 		this->setName("Acolyte");
 
-        setStats(6, 1, 6, 13, 8, 1);
+        adjustStats(6, 1, 6, 13, 8, 1);
 
         this->addSkill(new Skill("Heal", "Heal", 20));
         this->addSkill(new Skill("Holy Light Strike", "Attack", 10));

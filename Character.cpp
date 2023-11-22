@@ -20,15 +20,6 @@ public:
 		
 	};
 
-	void setStats(int Str, int Agi, int Vit, int Int, int Dex, int Luk){
-		this->STR = Str;
-		this->AGI = Agi;
-		this->VIT = Vit;
-		this->INT = Int;
-		this->DEX = Dex;
-		this->LUK = Luk;
-	}
-
 	void adjustStats(int Str, int Agi, int Vit, int Int, int Dex, int Luk){
 		this->STR += Str;
 		this->AGI += Agi;

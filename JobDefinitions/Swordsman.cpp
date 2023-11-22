@@ -10,7 +10,7 @@ public:
     Swordsman(){
         this->setName("Swordsman");
 
-        setStats(11, 3, 13, 1, 6, 1);
+        adjustStats(11, 3, 13, 1, 6, 1);
 
         this->addSkill(new Skill("Endure", "Buff", 10));
         this->addSkill(new Skill("Bash", "Attack", 20));

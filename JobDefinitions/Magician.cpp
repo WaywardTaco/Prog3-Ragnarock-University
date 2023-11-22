@@ -10,7 +10,7 @@ public:
 	Magician(){
 		this->setName("Magician");
 
-        setStats(1, 1, 3, 18, 11, 1);
+        adjustStats(1, 1, 3, 18, 11, 1);
 
         this->addSkill(new Skill("Cold Bolt", "Attack", 15));
         this->addSkill(new Skill("Ring Of Fire", "Attack", 10));

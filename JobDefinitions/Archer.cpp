@@ -10,7 +10,7 @@ public:
 	Archer(){
 		this->setName("Archer");
 
-		setStats(1, 8, 3, 3, 16, 3);
+		adjustStats(1, 8, 3, 3, 16, 3);
 
         this->addSkill(new Skill("Double Strafe", "Attack", 10));
         this->addSkill(new Skill("Arrow Shower", "Attack", 20));

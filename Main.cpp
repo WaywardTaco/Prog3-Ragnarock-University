@@ -20,7 +20,7 @@ int main() {
 		cout << endl;
 
 		char choice;
-		cout << "Use Skill [Y/N]: "; cin >> choice;
+		cout << "Use Skill? [Y/N]: "; cin >> choice;
 
 		if(choice == 'Y' || choice == 'y')
 			useSkill = true;

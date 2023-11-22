@@ -10,7 +10,7 @@ public:
 	Thief(){
 		this->setName("Thief");
 
-		setStats(8, 16, 1, 1, 3, 6);
+		adjustStats(8, 16, 1, 1, 3, 6);
 
         this->addSkill(new Skill("Strong Blade Attack", "Attack", 10));
         this->addSkill(new Skill("Double Attack", "Passive", 20));

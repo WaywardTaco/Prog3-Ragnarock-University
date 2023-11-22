@@ -10,7 +10,7 @@ public:
 	Merchant(){
 		this->setName("Merchant");
 
-		setStats(13, 8, 3, 1, 5, 5);
+		adjustStats(13, 8, 3, 1, 5, 5);
 
         this->addSkill(new Skill("Mammonite", "Attack", 20));
         this->addSkill(new Skill("Cart Attack", "Summon", 10));
