@@ -61,7 +61,7 @@
 #include "./JobDefinitions/Biochemist.cpp"
 #include "./JobDefinitions/Geneticist.cpp"
 
-#include "UpgradeTree.cpp"
+#include "InitializeUpgrades.cpp"
 
 #include "Player.cpp"
 
