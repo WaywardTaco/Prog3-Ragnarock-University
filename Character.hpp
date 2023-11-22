@@ -15,8 +15,6 @@ public:
 		
 	};
 
-	void setStats(int Str, int Agi, int Vit, int Int, int Dex, int Luk);
-
 	void adjustStats(int Str, int Agi, int Vit, int Int, int Dex, int Luk);
 
 	void showStats();
